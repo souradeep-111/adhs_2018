@@ -1,3 +1,7 @@
+# ADHS_2018 
+
+The files here are to reproduce the examples in the ADHS 2018 paper, "Learning and Verification of Feedback Control
+Systems using Feedforward Neural Networks."
 # sherlock
 
 Sherlock is an output range analysis tool for deep neural networks.
@@ -13,16 +17,16 @@ http://www.gurobi.com/resources/getting-started/mip-basics
 
 Please modify the file Makefile.locale to help us find Gurobi.
 
-For a Mac with the latest gurobi7.52 installed your likely settings
+For a Mac with the latest gurobi8.00 installed your likely settings
 will be:
 
 > HOST_ARCH=mac64
-> GUROBI_PATH=/Library/gurobi752
+> GUROBI_PATH=/Library/gurobi800
 
 For a linux box, your settins will be:
 
 > ARCH=linux64 # if you are using a linux box
-> GUROBI_PATH=/opt/gurobi752
+> GUROBI_PATH=/opt/gurobi800
 
 You should feel free to modify these two variables. The Makefile will look for Gurobi headers under
 
@@ -33,22 +37,11 @@ and libraries under
 > $(GUROBI_PATH)/$(HOST_ARCH)/include
 
 
-Once these are set, you should type
+Once these are set, you should type 
+ > make
+ It should create all the different executables for each of the examples. Which you should be able to run with the right option.
+You can chose what option you want by just running it first as : 
 
-> make 
+> ./run_file_1
 
-to compile. It should work out of the box.
-
-## Instructions to run
-
-Please use the command line run_file to run all the benchmarks.
-
-> ./run_file all
-
-
-Enjoy the output as it scrolls on your screen :-)
-
-Alternatively, you can run a specific benchmark using the following command : 
- > ./run_file <benchmark_no>
-# ADHS_2018
-# ADHS_2018
+For example 1, and so on
