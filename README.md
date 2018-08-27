@@ -2,7 +2,7 @@
 
 The files here are to reproduce the examples in the ADHS 2018 paper, "Learning and Verification of Feedback Control
 Systems using Feedforward Neural Networks."
-The content files here uses "sherlock" as a fundamental primitive to sove the reachability problem over Neural Networks.
+The implementation here uses "sherlock" as a fundamental primitive to solve the reachability problem over Neural Networks.
 
 # sherlock
 
