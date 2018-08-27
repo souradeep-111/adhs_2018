@@ -2,6 +2,8 @@
 
 The files here are to reproduce the examples in the ADHS 2018 paper, "Learning and Verification of Feedback Control
 Systems using Feedforward Neural Networks."
+The content files here uses "sherlock" as a fundamental primitive to sove the reachability problem over Neural Networks.
+
 # sherlock
 
 Sherlock is an output range analysis tool for deep neural networks.
@@ -39,9 +41,10 @@ and libraries under
 
 Once these are set, you should type 
  > make
+ 
  It should create all the different executables for each of the examples. Which you should be able to run with the right option.
 You can chose what option you want by just running it first as : 
 
 > ./run_file_1
 
-For example 1, and so on
+For example 1, and so on.
